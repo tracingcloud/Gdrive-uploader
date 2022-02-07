@@ -11,7 +11,7 @@ from creds import Creds
 from pySmartDL import SmartDL
 from pydrive.auth import GoogleAuth
 import plugins.download
-from plugins import TEXT
+from plugins.download import TEXT
 from plugins.download import download_wget
 from plugins.tok_rec import is_token
 from time import time
